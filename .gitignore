@@ -21,16 +21,7 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
-/Grants/[Dd]ebug/
-/Grants/[Dd]ebugPublic/
-/Grants/[Rr]elease/
-/Grants/[Rr]eleases/
-/Grants/x64/
-/Grants/x86/
-/Grants/bld/
-/Grants/[Bb]in/
-/Grants/[Oo]bj/
-/Grants/[Ll]og/
+/Grants/obj/*
 
 # Visual Studio 2015 cache/options directory
 .vs/
