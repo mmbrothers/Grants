@@ -6,8 +6,12 @@
     color: white;
 }
 
-h2{
+h2 {
     color: #13334D;
+}
+
+.sitepanel{
+    background-color: #eeeeee;
 }
 
 /*.navbar-inverse .navbar-brand {
