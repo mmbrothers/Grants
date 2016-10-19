@@ -11,6 +11,7 @@ namespace Grants.Controllers
         public ActionResult Index()
         {
             // ząb zupa zębowa, dąb zupa dębowa
+            // Hello Git!
             return View();
         }
 
