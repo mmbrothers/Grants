@@ -11,16 +11,26 @@
 *.userprefs
 
 # Build results
-Grants/[Dd]ebug/
-Grants/[Dd]ebugPublic/
-Grants/[Rr]elease/
-Grants/[Rr]eleases/
-Grants/[Xx]64/
-Grants/[Xx]86/
-Grants/[Bb]uild/
-Grants/bld/
-Grants/[Bb]in/
-Grants/[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+/Grants/[Dd]ebug/
+/Grants/[Dd]ebugPublic/
+/Grants/[Rr]elease/
+/Grants/[Rr]eleases/
+/Grants/x64/
+/Grants/x86/
+/Grants/bld/
+/Grants/[Bb]in/
+/Grants/[Oo]bj/
+/Grants/[Ll]og/
 
 # Visual Studio 2015 cache/options directory
 .vs/
