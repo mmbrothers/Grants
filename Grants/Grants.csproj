@@ -254,6 +254,7 @@
     <Content Include="Views\Shared\_Contacts.cshtml" />
     <Content Include="Views\Shared\_AboutUs.cshtml" />
     <Content Include="Views\Shared\_Cooperation.cshtml" />
+    <Content Include="Views\Shared\_InnovateInvestments.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
