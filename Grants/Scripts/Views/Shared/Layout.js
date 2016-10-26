@@ -6,20 +6,10 @@ $(document).ready(function () {
         contact: "#contacts-partial"
     }
 
-    $(menu.innovativeInvestments).click(function () {
-        scrollTo(menu.innovativeInvestments);
-    });
-
-    $(menu.cooperation).click(function () {
-        scrollTo(menu.cooperation);
-    });
-
-    $(menu.aboutUs).click(function () {
-        scrollTo(menu.aboutUs);
-    });
-
-    $(menu.contact).click(function () {
-        scrollTo(menu.contact);
+    $.each(menu, function(i) {
+        $(menu[i]).click(function () {
+            scrollTo(menu[i]);
+        });
     });
 
     function scrollTo(source) {
