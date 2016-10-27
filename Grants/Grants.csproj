@@ -192,6 +192,10 @@
     <Content Include="Content\Images\paperclip-168336_1920.jpg" />
     <Content Include="Content\Images\pocket-watch-1637394_1920.jpg" />
     <Content Include="Content\Images\torres-1670879_1920.jpg" />
+    <Content Include="Content\Images\VillageGrants\car.jpg" />
+    <Content Include="Content\Images\VillageGrants\excavator.jpg" />
+    <Content Include="Content\Images\VillageGrants\house.jpg" />
+    <Content Include="Content\Images\VillageGrants\software.jpg" />
     <Content Include="Content\Images\work-1699510_1920.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -256,6 +260,7 @@
     <Content Include="Views\Shared\_InnovativeInvestments.cshtml" />
     <Content Include="Views\Shared\_SafetyImprovements.cshtml" />
     <Content Include="Views\Shared\_BuildingGrants.cshtml" />
+    <Content Include="Views\Shared\_VillageGrants.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

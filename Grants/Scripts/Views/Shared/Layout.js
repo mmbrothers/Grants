@@ -5,6 +5,7 @@ $(document).ready(function () {
         innovativeInvestments: "#innovative-investments-partial",
         safetyImprovements: "#safety-improvements-partial",
         buildingGrants: "#building-grants-partial",
+        villageGrants: "#village-grants-partial",
         contact: "#contacts-partial"
     }
 
