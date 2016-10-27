@@ -263,6 +263,7 @@
     <Content Include="Views\Shared\_BuildingGrants.cshtml" />
     <Content Include="Views\Shared\_VillageGrants.cshtml" />
     <Content Include="Views\Shared\_MonumentGrants.cshtml" />
+    <Content Include="Views\Shared\_Loans.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

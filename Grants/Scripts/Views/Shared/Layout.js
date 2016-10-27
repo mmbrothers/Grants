@@ -7,6 +7,7 @@ $(document).ready(function () {
         buildingGrants: "#building-grants-partial",
         villageGrants: "#village-grants-partial",
         monumentGrants: "#monument-grants-partial",
+        loans: "#loans-partial",
         contact: "#contacts-partial"
     }
 
