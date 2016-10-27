@@ -4,6 +4,7 @@ $(document).ready(function () {
         cooperation: "#cooperation-partial",
         innovativeInvestments: "#innovative-investments-partial",
         safetyImprovements: "#safety-improvements-partial",
+        buildingGrants: "#building-grants-partial",
         contact: "#contacts-partial"
     }
 
