@@ -6,6 +6,7 @@ $(document).ready(function () {
         safetyImprovements: "#safety-improvements-partial",
         buildingGrants: "#building-grants-partial",
         villageGrants: "#village-grants-partial",
+        monumentGrants: "#monument-grants-partial",
         contact: "#contacts-partial"
     }
 

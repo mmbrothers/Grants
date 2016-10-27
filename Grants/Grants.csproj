@@ -189,6 +189,7 @@
     <Content Include="Content\Images\Cooperation\arrow-down-06.png" />
     <Content Include="Content\Images\Cooperation\arrow-down-07.png" />
     <Content Include="Content\Images\money-1508451_1920.jpg" />
+    <Content Include="Content\Images\MonumentGrants\monument.jpg" />
     <Content Include="Content\Images\paperclip-168336_1920.jpg" />
     <Content Include="Content\Images\pocket-watch-1637394_1920.jpg" />
     <Content Include="Content\Images\torres-1670879_1920.jpg" />
@@ -261,6 +262,7 @@
     <Content Include="Views\Shared\_SafetyImprovements.cshtml" />
     <Content Include="Views\Shared\_BuildingGrants.cshtml" />
     <Content Include="Views\Shared\_VillageGrants.cshtml" />
+    <Content Include="Views\Shared\_MonumentGrants.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
