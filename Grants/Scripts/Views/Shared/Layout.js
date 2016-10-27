@@ -1,8 +1,9 @@
 $(document).ready(function () {
     var menu = {
-        innovativeInvestments: "#innovative-investments-partial",
-        cooperation: "#cooperation-partial",
         aboutUs: "#about-us-partial",
+        cooperation: "#cooperation-partial",
+        innovativeInvestments: "#innovative-investments-partial",
+        safetyImprovements: "#safety-improvements-partial",
         contact: "#contacts-partial"
     }
 
