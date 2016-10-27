@@ -254,7 +254,7 @@
     <Content Include="Views\Shared\_AboutUs.cshtml" />
     <Content Include="Views\Shared\_Cooperation.cshtml" />
     <Content Include="Views\Shared\_InnovativeInvestments.cshtml" />
-    <Content Include="Views\Shared\_SafetyImprovement.cshtml" />
+    <Content Include="Views\Shared\_SafetyImprovements.cshtml" />
     <Content Include="Views\Shared\_BuildingGrants.cshtml" />
   </ItemGroup>
   <ItemGroup>
