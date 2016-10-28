@@ -2,90 +2,10 @@
     ViewBag.Title = "LPProject";
 }
 
-<br />
-
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-        @*TODO: stworzyć nową klasę css i przenieść tam style="height: 250px;"*@
-        <div class="item active" style="height: 250px">
-            <img src="~/Content/Images/pocket-watch-1637394_1920.jpg" alt="Watch">
-            <div class="carousel-caption">
-                <h3>Doradztwo</h3>
-                <p>@*Doradztwo gospodarcze i unijne.*@</p>
-            </div>
-        </div>
-
-        @*TODO: stworzyć nową klasę css i przenieść tam style="height: 250px;"*@
-        <div class="item" style="height: 250px">
-            <img src="~/Content/Images/work-1699510_1920.jpg" alt="Money">
-            <div class="carousel-caption">
-                <h3>Dotacje</h3>
-                <p>@*Dotacje, pożyczki unijne, biznes plany, doradztwo, sporzadzanie dokumentacji.*@</p>
-            </div>
-        </div>
-
-        @*TODO: stworzyć nową klasę css i przenieść tam style="height: 250px;"*@
-        <div class="item" style="height: 250px">
-            <img src="~/Content/Images/torres-1670879_1920.jpg" alt="Watch">
-            <div class="carousel-caption">
-                <h3>Rozliczenia</h3>
-                <p>@*Dotacje, pożyczki unijne, biznes plany, doradztwo, sporzadzanie dokumentacji.*@</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-
-<br />
-
-<div class="jumbotron">
-    <h1>Dotacje unijne dla firm.</h1>
-    <p class="lead">Dotacje, pożyczki unijne, biznes plany, doradztwo, sporzadzanie dokumentacji.</p>
-</div>
-
-<div class="row">
-    <div class="col-md-12">
-        <h1 style="text-align: center">Oferta</h1>
-    </div>
-    <div class="col-md-4">
-        <h2>Doradztwo gospodarcze i unijne</h2>
-        <p>
-            Wspieranie firm w rozwoju planów gospodarczych i biznesowych. Pomoc w nawiązywaniu partnerstwa i współpracę z jednostkami naukowymi. Wskazywanie długofalowych możliwości pozyskiwania funduszy z Unii Europejskiej.
-        </p>
-    </div>
-    <div class="col-md-4">
-        <h2>Pozyskanie dotacji</h2>
-        <p>
-            Dobór odpowiednich konkursów do sfinansowania inwestycji klienta. Przygotowanie całej dokumentacji oraz pomoc w przygotowaniu się do realizacji projektu.
-        </p>
-    </div>
-    <div class="col-md-4">
-        <h2>Rozliczenie dotacji</h2>
-        <p>
-            Wsparcie Beneficjentów w procesie rozliczenia, służąc im radą i pomocą przy realizacji projektów unijnych. Czuwanie nad prawidłowym przygotowaniem dokumentów i przestrzeganiem wytycznych, począwszy od wyboru dostawców, skończywszy na przygotowaniu do kontroli, aż do wpływu dofinansowania na konto klienta.
-        </p>
-    </div>
-</div>
-
 @*TODO: Nazwa partiala do zmiany, może trzeba sprzątnąć domyślny "Contact.cshtml"?
 Warto dodać szablony T4MVC - nie będzie trzeba odwoływać się zahardcodowanymi stringami*@
+@Html.Partial("_Introduction")
+@Html.Partial("_Offer")
 @Html.Partial("_AboutUs")
 @Html.Partial("_Cooperation")
 @Html.Partial("_InnovativeInvestments")
@@ -95,18 +15,3 @@ Warto dodać szablony T4MVC - nie będzie trzeba odwoływać się zahardcodowany
 @Html.Partial("_MonumentGrants")
 @Html.Partial("_Loans")
 @Html.Partial("_Contacts")
-
-@*Chyba jedno Jumbo miało być?*@
-    @*<div class="jumbotron">
-            <h1>Dotacje unijne dla firm.</h1>
-            <p class="lead">Dotacje, pożyczki unijne, biznes plany, doradztwo, sporzadzanie dokumentacji.</p>
-        </div>*@
-
-    @*<div class="row sitepanel">
-            <div class="col-md-4">
-                <img src="~/Content/Images/pocket-watch-1637394_1920.jpg" class="img-responsive" alt="Watch">
-            </div>
-            <div class="col-md-8">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices mauris ac sagittis tincidunt. Maecenas ut efficitur sapien, in lobortis diam. Mauris fermentum nisl vel felis hendrerit aliquam sed sit amet ligula. Curabitur eros orci, porttitor in ipsum ac, hendrerit aliquet diam. Cras consectetur arcu in accumsan eleifend. Fusce quis augue ut diam vehicula suscipit id sit amet dolor. Quisque porta dolor imperdiet arcu efficitur sodales. Pellentesque dapibus convallis magna ut sollicitudin. Donec et mauris quis sem dapibus viverra quis ut ex. Nulla cursus consequat eleifend. Maecenas congue iaculis mauris a ornare. Suspendisse pellentesque ac leo quis bibendum. In blandit pharetra ipsum, quis condimentum est sodales id. Duis dignissim, metus vel suscipit dapibus, libero nunc cursus nisl, at tincidunt dolor tellus eget elit. Nulla pharetra pharetra turpis in molestie.</p>
-            </div>
-        </div>*@

@@ -14,12 +14,35 @@ h2 {
     background-color: #eeeeee;
 }
 
-/*.navbar-inverse .navbar-brand {
-    background-color: #10446d;
-    color: white;
-}*/
+.parallax {
+    /* The image used */
+    background-image: url(Images/torres-1670879_1920.jpg);
 
-/*.navbar-inverse .navbar-nav {
-    background-color: #10446d;
+    /* Set a specific height */
+    min-height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slogan{
+    font-family: 'Lato', sans-serif;
     color: white;
-}*/
+}
+
+.slogan-main {
+    font-size: 9vw;
+}
+
+.slogan-minor {
+    font-size: 5vw;
+}
+
+.sloganContainer{
+    margin-top: 14px;
+    padding-top: 15em;
+    padding-left: 2em;
+}
