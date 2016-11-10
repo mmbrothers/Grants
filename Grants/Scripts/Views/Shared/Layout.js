@@ -20,7 +20,7 @@ $(document).ready(function () {
     function scrollTo(source) {
         var destination = source + "-div";
         $('html, body').animate({
-            scrollTop: $(destination).offset().top - 55
+            scrollTop: $(destination).offset().top - 105
         }, 1000);
     }
 });
