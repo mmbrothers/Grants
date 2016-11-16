@@ -181,7 +181,6 @@
     <Content Include="Content\custom.css" />
     <Content Include="Content\Images\BuildingGrants\solar_panels.jpg" />
     <Content Include="Content\Images\Contacts\contact_logo.jpg" />
-    <Content Include="Content\Images\Contacts\contact_map.JPG" />
     <Content Include="Content\Images\Cooperation\arrow-down-01.png" />
     <Content Include="Content\Images\Cooperation\arrow-down-02.png" />
     <Content Include="Content\Images\Cooperation\arrow-down-03.png" />
