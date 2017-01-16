@@ -46,3 +46,11 @@ h2 {
     padding-top: 15em;
     padding-left: 2em;
 }
+
+/*dropdown opened color*/
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #10446d;
+}
