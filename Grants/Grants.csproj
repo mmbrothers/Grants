@@ -266,6 +266,7 @@
     <Content Include="Views\Shared\_Loans.cshtml" />
     <Content Include="Views\Shared\_Offer.cshtml" />
     <Content Include="Views\Shared\_Introduction.cshtml" />
+    <Content Include="Views\Shared\_RecommendedSites.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -8,7 +8,8 @@ $(document).ready(function () {
         villageGrants: "#village-grants-partial",
         monumentGrants: "#monument-grants-partial",
         loans: "#loans-partial",
-        contact: "#contacts-partial"
+        contact: "#contacts-partial",
+        recommendedSites: "#recommended-sites-partial"
     }
 
     $.each(menu, function(i) {
